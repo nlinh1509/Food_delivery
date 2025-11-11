@@ -47,3 +47,27 @@
   padding-bottom: 2px;
   border-bottom: 2px solid #49557e;
 }
+
+.navbar li {
+  cursor: pointer;
+}
+
+.navbar .navbar_search_icon {
+  /* relative làm tham chiếu vị trí 
+  để các phần tủ con tìm đến */
+  position: relative;
+  cursor: pointer;
+}
+
+/*  */
+.navbar_search_icon .dot {
+  /* absolute tìm dịa chỉ của thằng cha rồi tìm đến 
+  và căn trái + đáy nên cần phải tự đièu chỉnh */
+  position: absolute;
+  min-width: 10px;
+  min-height: 10px;
+  background-color: tomato;
+  border-radius: 5px;
+  top: -8px;
+  right: -8px;
+}
