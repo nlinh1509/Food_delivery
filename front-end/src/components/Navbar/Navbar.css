@@ -1,0 +1,44 @@
+.navbar {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* gọi thằng logo ở trong thằng navbar */
+.navbar .logo {
+  width: 150px;
+}
+
+/* display -> căn ngang hàng */
+/* list style để bỏ dấu chấm đằng trước */
+/* gap 20px để khoảng cách các phần tử con bên trong khối (item bên trong container) */
+.navbar .navbar_menu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  color: #49557e;
+  font-size: 18px;
+}
+
+.navbar .navbar_right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.navbar .navbar_right button {
+  background: transparent;
+  font-size: 16px;
+  color: #49557e;
+  border: 0.01px solid tomato;
+  padding: 10px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* khi giữ vào các button bên trong navbar sẽ có màu */
+.navbar button:hover {
+  background-color: #faebe9;
+}
