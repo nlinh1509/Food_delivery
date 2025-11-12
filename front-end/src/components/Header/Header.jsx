@@ -8,7 +8,9 @@ const Header = () => {
         <h2>Order your favourite food here </h2>
         <p>
           Choose from a diverse menu featuring a detectable array of dishes
-          crafted with the finest{" "}
+          crafted with the finest, Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Ducimus quia odit molestiae consequuntur quae
+          voluptates id soluta repellendus consectetur reiciendis.{" "}
         </p>
         <button>View Menu</button>
       </div>
