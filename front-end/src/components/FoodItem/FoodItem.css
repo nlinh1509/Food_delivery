@@ -38,5 +38,34 @@
   color: tomato;
   font-weight: 500;
   font-size: 22px;
-  margin-top: 10px;
+  margin: 10px 0px;
+}
+
+.food_item_img_container {
+  position: relative;
+}
+
+.food_item_img_container .add {
+  width: 40px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.food_item_counter {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.food_item_counter img {
+  width: 30px;
 }
