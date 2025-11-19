@@ -4,10 +4,10 @@
 
 .cart_items_title {
   display: grid;
-  grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+  grid-template-columns: 1.2fr 1.4fr 1fr 1fr 1fr 0.2fr;
   align-items: center;
   color: grey;
-  font-size: max(1vw, 12px);
+  font-size: max(1.1vw, 12px);
 }
 
 .cart_items_item {
@@ -16,7 +16,7 @@
 }
 
 .cart_items_item img {
-  width: 50px;
+  width: 80px;
 }
 
 .cart hr {
