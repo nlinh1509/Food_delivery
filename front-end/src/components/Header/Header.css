@@ -1,9 +1,11 @@
 .header {
-  height: 34vw;
+  height: 36vw;
   margin: 30px auto;
-  background: url("/header_img.png");
-  background-size: contain;
+  background: url("../../assets/header_img.jpg");
+  background-size: 100%;
+  background-position: 0 30%;
   position: relative;
+  border-radius: 10px;
 }
 .header .header_contents {
   position: absolute;
@@ -18,7 +20,7 @@
 }
 .header .header_contents h2 {
   font-weight: 500;
-  color: #fff;
+  color: #ffffffee;
   font-size: max(4.5vw, 22px);
 }
 

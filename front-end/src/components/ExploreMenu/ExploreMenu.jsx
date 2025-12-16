@@ -16,7 +16,7 @@ const ExploreMenu = ({ category, setCategory }) => {
 
       <div className="explore_menu_list">
         {/* menu_list là 1 mảng */}
-        {/* map là 1 vòng lặp */}
+        {/* map là 1 hàm vòng lặp */}
 
         {/* index là vị trí trong mảng */}
         {/* items là dữ liệu của một món ăn trong danh sách. */}
