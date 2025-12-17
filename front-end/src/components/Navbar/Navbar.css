@@ -1,4 +1,5 @@
 .navbar {
+  margin-top: 5px;
   padding: 20px 0px;
   display: flex;
   justify-content: space-between;
@@ -6,8 +7,9 @@
 }
 
 /* gọi thằng logo ở trong thằng navbar */
-.navbar .logo {
-  width: 150px;
+.navbar .logo1 {
+  width: 100px;
+  margin-left: 10px;
 }
 
 /* display -> căn ngang hàng */
@@ -31,7 +33,7 @@
   background: transparent;
   font-size: 16px;
   color: #49557e;
-  border: 0.01px solid tomato;
+  border: 0.01px solid #594a42;
   padding: 10px 30px;
   border-radius: 50px;
   cursor: pointer;
@@ -40,12 +42,15 @@
 
 /* khi giữ vào các button bên trong navbar sẽ có màu */
 .navbar button:hover {
-  background-color: #faebe9;
+  background-color: #fcebd6;
+  border-color: #fcebd6; /* Đổi màu viền cùng màu nền */
+  color: #594a42; /* Màu chữ nâu trầm */
 }
 
 .navbar .active {
   padding-bottom: 2px;
   border-bottom: 2px solid #49557e;
+  
 }
 
 .navbar_menu a:link,
@@ -67,7 +72,7 @@
   position: absolute;
   min-width: 10px;
   min-height: 10px;
-  background-color: tomato;
+  background-color: #fa8e6c;
   border-radius: 5px;
   top: -8px;
   right: -8px;

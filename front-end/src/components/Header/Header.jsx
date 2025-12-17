@@ -9,8 +9,7 @@ const Header = () => {
         <p>
           Choose from a diverse menu featuring a detectable array of dishes
           crafted with the finest, Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Ducimus quia odit molestiae consequuntur quae
-          voluptates id soluta repellendus consectetur reiciendis.{" "}
+          adipisicing elit. {" "}
         </p>
         <button>View Menu</button>
       </div>

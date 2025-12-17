@@ -5,8 +5,9 @@
 }
 
 .explore_menu h1 {
-  color: #262626;
-  font-weight: 500;
+  color: #594a42;
+  font-weight: 600;
+  margin-top: 25px;
 }
 
 .explore_menu_text {
@@ -35,7 +36,7 @@ display none tức là ẩn hoàn toàn thanh cuộn */
   min-width: 80px;
   border-radius: 50%;
   cursor: pointer;
-  transition: 0.2;
+  transition: 0.2s;
 }
 
 .explore_menu_list_item p {
@@ -53,7 +54,7 @@ display none tức là ẩn hoàn toàn thanh cuộn */
 }
 
 .explore_menu_list_item .active {
-  border: 4px solid tomato;
+  border: 4px solid #d96c4a;
   padding: 2px;
 }
 
