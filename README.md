@@ -69,6 +69,39 @@ cd backend
 npm install
 ```
 
+PORT=4000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+STRIPE_SECRET_KEY=your_stripe_test_key
+
 npm run server
 
 # Server runs on http://localhost:4000
+
+cd ../frontend
+npm install
+npm start
+
+# Runs on http://localhost:5173 (or 3000)
+
+cd ../frontend
+npm install
+npm start
+
+# Runs on http://localhost:5173 (or 3000)
+
+🔄 System Workflow
+
+1. Ordering Workflow
+   Selection: Users browse the menu and add items to the cart.
+   Authentication: Users must log in to proceed to checkout.
+   Payment: The app redirects to the Stripe payment page. Upon success, the order is saved to the database.
+   Confirmation: Users can verify their order status in the "My Orders" section.
+2. Admin Workflow
+   Product Entry: Admin uploads food details (Name, Description, Price, Image, Category).
+   Order Processing: Admin views all user orders. When food is ready, Admin updates status to "Out for Delivery".
+   🔐 Authentication & Security
+   Token-Based: Uses JSON Web Tokens (JWT) for secure API access.
+   Password Security: User passwords are encrypted using bcrypt before storage.
+   Session: Token stored in browser headers/local storage for persistent login.
+   Made with ❤️ by [Your Name].
