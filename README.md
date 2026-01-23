@@ -51,7 +51,9 @@ Food_delivery/
     │   ├── pages/          # Cart, Home, PlaceOrder
     │   └── App.jsx         # Main app layout
 
-    1. Clone the Repository
+```
+
+    ## 1. Clone the Repository
+
 git clone [https://github.com/nlinh1509/Food_delivery.git](https://github.com/nlinh1509/Food_delivery.git)
 cd Food_delivery
-```
