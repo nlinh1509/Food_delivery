@@ -1,6 +1,5 @@
 # 🍅 Food Delivery App
 
-![Go](https://img.shields.io/badge/Go-1.21+-00ADD8?style=flat&logo=go&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=flat&logo=nodedotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-18+-61DAFB?style=flat&logo=react&logoColor=black)
 
@@ -88,17 +87,18 @@ npm start
 
 ## 🔄 System Workflow
 
-1. Ordering Workflow
-   Selection: Users browse the menu and add items to the cart.
-   Authentication: Users must log in to proceed to checkout.
-   Payment: The app redirects to the Stripe payment page. Upon success, the order is saved to the database.
-   Confirmation: Users can verify their order status in the "My Orders" section.
+- ## Ordering Workflow
 
-2. Admin Workflow
-   Product Entry: Admin uploads food details (Name, Description, Price, Image, Category).
-   Order Processing: Admin views all user orders. When food is ready, Admin updates status to "Out for Delivery".
-   🔐 Authentication & Security
-   Token-Based: Uses JSON Web Tokens (JWT) for secure API access.
-   Password Security: User passwords are encrypted using bcrypt before storage.
-   Session: Token stored in browser headers/local storage for persistent login.
-   Made with ❤️ by [Your Name].
+- ### Selection: Users browse the menu and add items to the cart.
+- ### Authentication: Users must log in to proceed to checkout.
+- ### Payment: The app redirects to the Stripe payment page. Upon success, the order is saved to the database.
+- ### Confirmation: Users can verify their order status in the "My Orders" section.
+
+- #### Admin Workflow
+  Product Entry: Admin uploads food details (Name, Description, Price, Image, Category).
+  Order Processing: Admin views all user orders. When food is ready, Admin updates status to "Out for Delivery".
+  🔐 Authentication & Security
+  Token-Based: Uses JSON Web Tokens (JWT) for secure API access.
+  Password Security: User passwords are encrypted using bcrypt before storage.
+  Session: Token stored in browser headers/local storage for persistent login.
+  Made with ❤️ by [Your Name].
