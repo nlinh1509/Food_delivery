@@ -2,10 +2,10 @@
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-404D59?style=flat)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)
 
-A comprehensive full-stack food ordering platform inspired by modern delivery services. Built with the MERN stack (MongoDB, Express, React, Node.js), it features a seamless ordering experience, secure Stripe payments, and a dedicated Admin Dashboard for management.
+A comprehensive full-stack food ordering platform inspired by modern delivery services. Built with the **MERN stack** (MongoDB, Express, React, Node.js), it features a seamless ordering experience, secure Stripe payments, and a dedicated Admin Dashboard for management.
 
 ## ✨ Features
 
@@ -35,26 +35,48 @@ A comprehensive full-stack food ordering platform inspired by modern delivery se
 
 ```text
 Food_delivery/
-├── admin/                  # Admin Dashboard (React)
+├── admin/                      # Admin Dashboard (Vite + React)
 │   ├── src/
-│   │   ├── assets/         # Admin assets
-│   │   ├── components/     # Admin UI components (Sidebar, Navbar)
-│   │   ├── pages/          # AddItems, ListItems, Orders
-│   │   └── App.jsx         # Admin layout logic
-├── backend/                # API Server (Node/Express)
-│   ├── config/             # DB connection (db.js)
-│   ├── controllers/        # Logic for Order, Cart, Food, User
-│   ├── models/             # Mongoose Schemas
-│   ├── routes/             # API Endpoints
-│   ├── middleware/         # Auth middleware
-│   └── server.js           # Entry point
-└── frontend/               # Customer App (React)
+│   │   ├── assets/             # Admin static assets
+│   │   ├── pages/              # Add, List, Orders pages
+│   │   └── App.jsx             # Main Admin Logic
+│   ├── public/
+│   ├── index.html
+│   └── vite.config.js          # Vite Configuration
+│
+├── backend/                    # API Server (Node + Express)
+│   ├── config/                 # Database Configuration
+│   │   └── db.js               # MongoDB Connection
+│   ├── controllers/            # Route Logic
+│   │   ├── cartController.js
+│   │   ├── foodController.js
+│   │   ├── orderController.js
+│   │   └── userController.js
+│   ├── middleware/             # Custom Middleware
+│   │   └── auth.js             # Authentication Check
+│   ├── models/                 # Mongoose Schemas
+│   │   ├── foodModel.js
+│   │   ├── orderModel.js
+│   │   └── userModel.js
+│   ├── routes/                 # API Routes Definition
+│   │   ├── cartRoute.js
+│   │   ├── foodRoute.js
+│   │   ├── orderRoute.js
+│   │   └── userRoute.js
+│   ├── uploads/                # Local Image Storage
+│   ├── .env                    # Environment Variables
+│   └── server.js               # Server Entry Point
+│
+└── frontend/                   # Customer App (Vite + React)
     ├── src/
-    │   ├── assets/         # Food images & icons
-    │   ├── components/     # Navbar, FoodDisplay, Header
-    │   ├── context/        # StoreContext (Global State)
-    │   ├── pages/          # Cart, Home, PlaceOrder
-    │   └── App.jsx         # Main app layout
+    │   ├── assets/             # Food images & icons
+    │   ├── components/         # UI Components (Navbar, Header...)
+    │   ├── context/            # StoreContext (Global State)
+    │   ├── pages/              # Home, Cart, PlaceOrder
+    │   └── App.jsx             # Main App Layout
+    ├── public/
+    ├── index.html
+    └── vite.config.js          # Vite Configuration
 
 ```
 
@@ -125,4 +147,3 @@ npm start
 
 <br />
 <p align="center">Made with ❤️ by <strong>levonhatlinh</strong></p>
-````
