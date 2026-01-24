@@ -48,21 +48,10 @@ Food_delivery/
 │   ├── config/                 # Database Configuration
 │   │   └── db.js               # MongoDB Connection
 │   ├── controllers/            # Route Logic
-│   │   ├── cartController.js
-│   │   ├── foodController.js
-│   │   ├── orderController.js
-│   │   └── userController.js
 │   ├── middleware/             # Custom Middleware
 │   │   └── auth.js             # Authentication Check
 │   ├── models/                 # Mongoose Schemas
-│   │   ├── foodModel.js
-│   │   ├── orderModel.js
-│   │   └── userModel.js
 │   ├── routes/                 # API Routes Definition
-│   │   ├── cartRoute.js
-│   │   ├── foodRoute.js
-│   │   ├── orderRoute.js
-│   │   └── userRoute.js
 │   ├── uploads/                # Local Image Storage
 │   ├── .env                    # Environment Variables
 │   └── server.js               # Server Entry Point
