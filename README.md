@@ -69,26 +69,20 @@ cd backend
 npm install
 ```
 
+```bash
 PORT=4000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 STRIPE_SECRET_KEY=your_stripe_test_key
+```
 
-npm run server
+### npm run server
 
-# Server runs on http://localhost:4000
-
+```bash
 cd ../frontend
 npm install
 npm start
-
-# Runs on http://localhost:5173 (or 3000)
-
-cd ../frontend
-npm install
-npm start
-
-# Runs on http://localhost:5173 (or 3000)
+```
 
 🔄 System Workflow
 
