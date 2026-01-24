@@ -87,25 +87,25 @@ npm start
 
 ## 🔄 System Workflow
 
-### 1️⃣ Customer Journey
+#### Customer Journey
 
-- 🛒 **Selection:** Users browse the menu and add items to the cart.
-- 🔐 **Authentication:** Users must log in to proceed to checkout.
-- 💳 **Payment:** Integrated **Stripe** gateway. Upon success, order is saved to database.
-- 📦 **Confirmation:** Users verify status in the "My Orders" section.
+- **Selection:** Users browse the menu and add items to the cart.
+- **Authentication:** Users must log in to proceed to checkout.
+- **Payment:** Integrated **Stripe** gateway. Upon success, order is saved to database.
+- **Confirmation:** Users verify status in the "My Orders" section.
 
-### 2️⃣ Admin Dashboard
+#### Admin Dashboard
 
-- 📝 **Product Entry:** Add food details (Name, Desc, Price, Image, Category).
-- 🚚 **Order Processing:** Update status from _Processing_ → _Out for Delivery_ → _Delivered_.
+- **Product Entry:** Add food details (Name, Desc, Price, Image, Category).
+- **Order Processing:** Update status from _Processing_ → _Out for Delivery_ → _Delivered_.
 
 ---
 
 ## 🔐 Authentication & Security
 
-- 🛡️ **JWT Auth:** Secure API access using JSON Web Tokens.
-- 🔑 **Password Encryption:** User passwords hashed via `bcrypt`.
-- 💾 **Persistent Session:** Tokens stored securely in Local Storage.
+- **JWT Auth:** Secure API access using JSON Web Tokens.
+- **Password Encryption:** User passwords hashed via `bcrypt`.
+- **Persistent Session:** Tokens stored securely in Local Storage.
 
 <br />
-<p align="center">Made with ❤️ by <strong>[Your Name]</strong></p>
+<p align="center">Made with ❤️ by <strong>levonhatlinh</strong></p>
