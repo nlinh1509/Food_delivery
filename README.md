@@ -69,13 +69,6 @@ cd backend
 npm install
 ```
 
-```bash
-PORT=4000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-STRIPE_SECRET_KEY=your_stripe_test_key
-```
-
 ### npm run server
 
 ```bash
@@ -84,13 +77,14 @@ npm install
 npm start
 ```
 
-🔄 System Workflow
+## 🔄 System Workflow
 
 1. Ordering Workflow
    Selection: Users browse the menu and add items to the cart.
    Authentication: Users must log in to proceed to checkout.
    Payment: The app redirects to the Stripe payment page. Upon success, the order is saved to the database.
    Confirmation: Users can verify their order status in the "My Orders" section.
+
 2. Admin Workflow
    Product Entry: Admin uploads food details (Name, Description, Price, Image, Category).
    Order Processing: Admin views all user orders. When food is ready, Admin updates status to "Out for Delivery".
