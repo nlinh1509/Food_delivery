@@ -1,7 +1,9 @@
 # 🍅 Food Delivery App
 
-![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=flat&logo=nodedotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-18+-61DAFB?style=flat&logo=react&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-404D59?style=flat)
 
 A comprehensive full-stack food ordering platform inspired by modern delivery services. Built with the MERN stack (MongoDB, Express, React, Node.js), it features a seamless ordering experience, secure Stripe payments, and a dedicated Admin Dashboard for management.
 
@@ -67,11 +69,23 @@ cd Food_delivery
 
 ### 2. Start the Backend Server
 
+**Configuration:** Create a `.env` file in the `backend` folder and add your credentials:
+
+````env
+PORT=4000
+MONGO_URI=your_mongodb_connectison_string
+JWT_SECRET=your_jwt_secret
+STRIPE_SECRET_KEY=your_stripe_secret_key
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+
+Navigate to the backend directory and install dependencies:
 ```bash
 cd backend
 npm install
 npm run server
-```
+````
 
 - #### Server runs on http://localhost:4000
 
