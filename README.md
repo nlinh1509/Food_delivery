@@ -1,4 +1,4 @@
-# 🍔 Food Delivery App
+# 🍅 Food Delivery App
 
 A comprehensive full-stack food ordering platform inspired by modern delivery services. Built with the MERN stack (MongoDB, Express, React, Node.js), it features a seamless ordering experience, secure Stripe payments, and a dedicated Admin Dashboard for management.
 
@@ -21,7 +21,7 @@ A comprehensive full-stack food ordering platform inspired by modern delivery se
 ## 🛠 Tech Stack
 
 - **Backend:** Node.js, Express.js, JWT Authentication
-- **Frontend:** React.js, CSS/Tailwind (Admin & Client)
+- **Frontend:** React.js, CSS/Tailwind, Vite
 - **Database:** MongoDB Atlas (Mongoose)
 - **Payment:** Stripe API
 - **Storage:** Local Storage / Cloudinary (for food images)
@@ -69,8 +69,9 @@ cd backend
 npm install
 npm run server
 ```
+#### Server runs on http://localhost:4000
 
-### 3. The Frontend Server
+### 3. Start the Frontend Server
 
 ```bash
 cd ../frontend
