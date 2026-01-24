@@ -67,9 +67,10 @@ cd Food_delivery
 ```bash
 cd backend
 npm install
+npm run server
 ```
 
-### npm run server
+### 3. The Frontend Server
 
 ```bash
 cd ../frontend
