@@ -87,18 +87,25 @@ npm start
 
 ## 🔄 System Workflow
 
-- ## Ordering Workflow
+### 1️⃣ Customer Journey
 
-- ### Selection: Users browse the menu and add items to the cart.
-- ### Authentication: Users must log in to proceed to checkout.
-- ### Payment: The app redirects to the Stripe payment page. Upon success, the order is saved to the database.
-- ### Confirmation: Users can verify their order status in the "My Orders" section.
+- 🛒 **Selection:** Users browse the menu and add items to the cart.
+- 🔐 **Authentication:** Users must log in to proceed to checkout.
+- 💳 **Payment:** Integrated **Stripe** gateway. Upon success, order is saved to database.
+- 📦 **Confirmation:** Users verify status in the "My Orders" section.
 
-- #### Admin Workflow
-  Product Entry: Admin uploads food details (Name, Description, Price, Image, Category).
-  Order Processing: Admin views all user orders. When food is ready, Admin updates status to "Out for Delivery".
-  🔐 Authentication & Security
-  Token-Based: Uses JSON Web Tokens (JWT) for secure API access.
-  Password Security: User passwords are encrypted using bcrypt before storage.
-  Session: Token stored in browser headers/local storage for persistent login.
-  Made with ❤️ by [Your Name].
+### 2️⃣ Admin Dashboard
+
+- 📝 **Product Entry:** Add food details (Name, Desc, Price, Image, Category).
+- 🚚 **Order Processing:** Update status from _Processing_ → _Out for Delivery_ → _Delivered_.
+
+---
+
+## 🔐 Authentication & Security
+
+- 🛡️ **JWT Auth:** Secure API access using JSON Web Tokens.
+- 🔑 **Password Encryption:** User passwords hashed via `bcrypt`.
+- 💾 **Persistent Session:** Tokens stored securely in Local Storage.
+
+<br />
+<p align="center">Made with ❤️ by <strong>[Your Name]</strong></p>
