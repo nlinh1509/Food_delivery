@@ -71,7 +71,7 @@ cd Food_delivery
 
 **Configuration:** Create a `.env` file in the `backend` folder and add your credentials:
 
-````env
+```env
 PORT=4000
 MONGO_URI=your_mongodb_connectison_string
 JWT_SECRET=your_jwt_secret
@@ -79,13 +79,15 @@ STRIPE_SECRET_KEY=your_stripe_secret_key
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
+```
 
-Navigate to the backend directory and install dependencies:
+- \*\*Navigate to the backend directory and install dependencies:
+
 ```bash
 cd backend
 npm install
 npm run server
-````
+```
 
 - #### Server runs on http://localhost:4000
 
@@ -123,3 +125,4 @@ npm start
 
 <br />
 <p align="center">Made with ❤️ by <strong>levonhatlinh</strong></p>
+````
