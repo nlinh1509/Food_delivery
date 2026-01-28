@@ -135,4 +135,4 @@ npm start
 - **Persistent Session:** Tokens stored securely in Local Storage.
 
 <br />
-<p align="center">Made with ❤️ by <strong>levonhatlinh</strong></p>
+<p align="center">Made with ❤️ by <strong>nlinh1509</strong></p>
